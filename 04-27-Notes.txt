@@ -60,4 +60,5 @@ Designer: Matt
 Information Designer: Dmitry (Matt+Rami)
 Accessibility: Edgar
 Git Administrator: Rami
-	
+
+This document was made in my git repository
