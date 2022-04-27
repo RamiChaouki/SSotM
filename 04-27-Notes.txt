@@ -1,0 +1,63 @@
+-What would the moon tourism website look like
+	-Look at tourism websites and see what are the main components
+	-Come up with some activities
+	-Target audience
+	-Think of it as a linear experience
+
+-Getting the submission dates
+	-May 2nd is for the whole project
+
+-Trello/git
+	Talk to Ali
+
+-Leader switch:
+	Talk to Ali
+
+-Checking websites:
+	Ideas:
+		Cookies?
+		Packages
+		Sign up forms
+		Newsletter
+		
+-Royalty free images:
+	https://unsplash.com/
+
+-Wow-factor:
+	-Using github to organize project and host server
+	-Using mysql for log in sign in
+
+-Look into github tutorial and suggest simple exercise
+
+-Moon Lore:
+	-How long is the trip?
+	-What is there to do in the moon?
+	-How long is the stay, what are the logisitics (Mitchell said it was linear)
+	-
+
+-Puropse:
+	A one stop solution to visiting the moon that includes Shipping - Lodging - 		Activities.
+-Target Audience:
+	The rich
+	
+
+-Backlog/Timeline:
+	-Directory
+	->Wireframe
+	
+
+TODO:
+-Design web directory
+-Install Git once Rami sends you instructions or on your own :)
+-Ali sends team and idea
+-Design wireframe (if you can)
+-Git + Gitboard
+
+
+Preliminary Roles:
+html: Ali
+Designer: Matt
+Information Designer: Dmitry (Matt+Rami)
+Accessibility: Edgar
+Git Administrator: Rami
+	
