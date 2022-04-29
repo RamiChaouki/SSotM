@@ -20,7 +20,7 @@ body {
 #splash-button {
     position: fixed;
     top: 70%;
-    left: 50%;
+    left: 40%;
     animation: fadeIn 10s;
     -webkit-animation: fadeIn 10s;
     -moz-animation: fadeIn 10s;
