@@ -21,6 +21,8 @@ body {
     position: fixed;
     top: 70%;
     left: 40%;
+    text-align: center;
+    color: gainsboro;
     animation: fadeIn 10s;
     -webkit-animation: fadeIn 10s;
     -moz-animation: fadeIn 10s;
