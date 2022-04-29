@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Reservation Form</title>
+    <style>
+        input:focus,
+        textarea:focus {
+            background-color: yellow;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hotel Reservation Form</h1>
+    <form id="hotel_reservarion" method="post" action="reservation-form-completed.html">
+        <fieldset>
+            <legend>Guest Personal Information</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="first_name">First Name:*</label>
+                    </td>
+                    <td>
+                        <input type="text" id="first_name" size="20" maxlength="20" autofocus="autofocus"
+                            required="required" />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="last_name">Last Name:*</label>
+                    </td>
+                    <td>
+                        <input type="text" id="last_name" size="20" maxlength="20" required="required" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">Address:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="address" size="30" maxlength="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city">City:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="city" size="30" maxlength="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="province_territory">Province / Territory:</label>
+                    </td>
+                    <td>
+                        <select id="province_territory">
+                            <option value="alberta">Alberta</option>
+                            <option value="british_columbia">British Columbia</option>
+                            <option value="manitoba">Manitoba</option>
+                            <option value="new_brunswick">New Brunswick</option>
+                            <option value="newfoundland_and_labrador">Newfoundland and Labrador</option>
+                            <option value="northwest_territories">Northwest Territories</option>
+                            <option value="nova_scotia">Nova Scotia</option>
+                            <option value="nunavut">Nunavut</option>
+                            <option value="ontario">Ontario</option>
+                            <option value="prince_edward_island">Prince Edward Island</option>
+                            <option value="quebec">Quebec</option>
+                            <option value="saskatchewan">Saskatchewan</option>
+                            <option value="yukon">Yukon</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="postal_code">Postal Code:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="postal_code" size="7" maxlength="7" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email Address:*</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" size="40" maxlength="30" placeholder="yourname@example.com"
+                            pattern="^\w+@[a-zA-Z_]+?\.john.smith[a-zA-Z]{2,3}$" required="required" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone_number">
+                            Phone Number</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="phone_number" size="15" maxlength="25" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Hotel Reservation</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label>Package:</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="package_a" value="package_a" />
+                        <label for="package_a">Package A</label>
+                        <br />
+                        <input type="radio" id="package_b" value="package_b" />
+                        <label for="package_b">Package B</label>
+                        <br />
+                        <input type="radio" id="package_c" value="package_c" />
+                        <label for="package_c">Package C</label>
+                        <br />
+                        <input type="radio" id="package_d" value="package_d" />
+                        <label for="package_d">Package D</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="length_of_stay">Length of Stay (excluding travel time):</label>
+                    </td>
+                    <td>
+                        <select id="length_of_stay">
+                            <option value="4_Days"> 4 Days</option>
+                            <option value="8_days"> 8 Days</option>
+                            <option value="15_days">15 Days</option>
+                            <option value="22_days">22 Days</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="number_of_people">Number of People</label>
+                    </td>
+                    <td> <input type="number" id="number_of_people" min="1" max="6" value="2" />
+                <tr>
+                    <td>
+                        <label for="adults">Adults:</label>
+                    </td>
+                    <td> <input type="number" id="adults" min="1" max="3" value="2" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="children">Children:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="children" min="0" max="4" />
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <label for="launch_date">Launch Date:</label>
+                    </td>
+                    <td>
+                        <input type="date" id="launch_date" />
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <label>Payment Method:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="payment_method" id="visa" value="visa" />
+                        <label for="visa">Visa</label>
+                        <br />
+                        <input type="radio" name="payment_method" id="master_card" value="master_card" />
+                        <label for="master_card">Master Card</label>
+                        <br />
+                        <input type="radio" name="payment_method" id="american_express" value="american_express" />
+                        <label for="american_express">American Express</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="payment_method" id="bitcoin" value="bitcoin" />
+                        <label for="bitcoin">Bitcoin</label>
+                        <br />
+                        <input type="radio" name="payment_method" id="etherium" value="etherium" />
+                        <label for="etherium">Etherium</label>
+                        <br />
+                        <input type="radio" name="payment_method" id="dogecoin" value="dogecoin" />
+                        <label for="dogecoin">Dogecoin</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Dietary Restrictions</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="dietary_restriction" id="vegetarian" value="vegetarian" />
+                        <label for="vegetarian">Vegetarian</label>
+                        <br />
+                        <input type="radio" name="dietary_restriction" id="pescatarian" value="pescatarian" />
+                        <label for="pescatarian">Pescatarian</label>
+                        <br />
+                        <input type="radio" name="dietary_restriction" id="vegan" value="vegan" />
+                        <label for="vegan">Vegan</label>
+                        <br />
+                        <input type="radio" name="dietary_restriction" id="gluten_free" value="gluten_free" />
+                        <label for="gluten_free">Gluten-Free</label>
+                        <br />
+                        <input type="radio" name="dietary_restriction" id="halal" value="halal" />
+                        <label for="halal">Halal</label>
+                        <br />
+                        <input type="radio" name="dietary_restriction" id="kosher" value="kosher" />
+                        <label for="kosher">Kosher</label>
+                        <br />
+                        <input type="radio" name="dietary_restriction" id="allergies" value="allergies" />
+                        <label for="allergies">Allergies: <input type="text" id="allergies" size="25"
+                                maxlength="25" /></label>
+                        <br />
+                        <input type="radio" name="dietary_restriction" id="other" value="other" />
+                        <label for="other">Other: <input type="text" size="25" maxlength="25" /></label>
+                        <br />
+                        <input type="radio" name="dietary_restriction" id="none" value="none" />
+                        <label for="none">None</label>
+                    </td>
+                </tr>
+
+            </table>
+        </fieldset>
+
+
+
+    </form>
+
+</body>
+
+</html>
