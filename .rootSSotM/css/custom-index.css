@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font: 16px/26px D-DIN-Regular,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    width: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.row.index {
+    height: 100vh;
+}
+
+.index, .index-1 {
+    background-image: url(http://placekitten.com/1920/1080);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
