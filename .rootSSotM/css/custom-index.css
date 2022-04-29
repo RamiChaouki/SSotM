@@ -13,10 +13,11 @@ body {
 
 .row.index {
     height: 100vh;
-}
-
-.index, .index-1 {
-    background-image: url(http://placekitten.com/1920/1080);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.text-truncate {
+    padding: 0 15%;
 }
