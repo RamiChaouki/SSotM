@@ -2,7 +2,7 @@
 
 #accordionFlushExample {
     background-color: transparent;
-    color: black;
+    color: black    ;
 }
 
 .row {
@@ -18,17 +18,10 @@
     margin-bottom: 2rem;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width: 100%;
+#google_translate_element {
+    text-decoration: none;
+    text-shadow: none;
 }
-
-.wrapper #google_translate_element{
-    grid-column: 2;
-    margin: 10px auto;
-}
-
 
 body {
     margin: 0;
