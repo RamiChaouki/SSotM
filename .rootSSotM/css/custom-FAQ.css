@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.FAQAccordion {
+    width: 50%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+}
+
+.wrapper #google_translate_element{
+    grid-column: 2;
+    margin: 10px auto;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 16px/26px D-DIN-Regular,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    width: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
+    background-color: #000;
+    background-image: url("../images/FAQ-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
