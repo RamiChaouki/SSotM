@@ -1,0 +1,15 @@
+Next mtg 9pm:
+
+Everyone:
+-Update background to faq-bg
+-Make all links work
+-Update your Nav/Foot
+-Update text file with 1 faq
+
+Rami
+-Delete form.html
+-Translating to French
+-getting a en/fr button on nav
+
+Dmitry+Edgar:
+-Update matt + Ali html with nav/foot
