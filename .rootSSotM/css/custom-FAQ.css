@@ -1,7 +1,21 @@
 @charset "UTF-8";
 
-.FAQAccordion {
-    width: 50%;
+#accordionFlushExample {
+    background-color: transparent;
+    color: black;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+#moon3D {
+    margin: 0 auto;
+}
+
+#faq {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .wrapper {
@@ -22,7 +36,7 @@ body {
     font: 16px/26px D-DIN-Regular,Arial,Verdana,sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #fff;
+    color: black;
     width: 100%;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -34,3 +48,9 @@ body {
     background-size: cover;
 }
 
+a, li, li>i, li>a, h2 {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    text-shadow: 0 0 3px black, 0 0 5px white;
+}
