@@ -1,14 +1,11 @@
 @charset "UTF-8";
 
-@import url(./_variables.scss);
-
 #accordionFlushExample {
-    background-color: transparent;
     color: black;
 }
 
 p {
-    color: white;
+    color: whitesmoke;
 }
 
 #moonInteract {
@@ -37,10 +34,16 @@ body {
     width: 100%;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-
- 
 }
 
+.h2, h2, .h4, h4 {
+    text-shadow:  0 0 15px whitesmoke;
+}
+
+.figure-img{
+    box-shadow: 0 1rem 3rem rgba(140, 95, 168, 0.78);
+    height: 100%;
+}
 
 .cus-bg{
     text-decoration: none;
