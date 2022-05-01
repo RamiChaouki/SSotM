@@ -23,7 +23,7 @@
   crossorigin="anonymous"></script>
 
   <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom-index.css">
+    <link rel="stylesheet" href="../css/custom-index.css">
     <link rel="stylesheet" href="css/custom.css">
 
 </head>
@@ -31,12 +31,14 @@
 
 <!-- Body start -->
 <body>
-    <!--NAVBAR BEGIN-->
+    
+  
+  <!--NAVBAR BEGIN-->
   <nav class="container-fluid cus-bg m-0 p-0" style="overflow-x:hidden;">
     <div class="row navbar py-0">
 
       <div class="col-md-3 d-md-none " style="text-align:center">
-        <a href="./index.html" class="d-md-none">
+        <a href="./index-fr.html" class="d-md-none">
           <img src="./images/mockLogo2.png" style="height:120px; width: auto;"
             alt="Sunny side of the Moon: Un logo comportant une lune qui brille" text="La face ensoleilée de la lune" />
         </a>
@@ -51,7 +53,7 @@
       </div>
 
       <div class="col-md-4 d-none d-md-block" style="text-align:center">
-        <a href="">
+        <a href="./index-fr.html">
           <img src="./images/mockLogo2.png" style="height:120px; width: auto;"
             alt="Sunny side of the Moon: Un logo comportant une lune qui brille" text="La face ensoleilée de la lune" />
         </a>
@@ -67,7 +69,7 @@
 
       <div class="col-md py-4 d-flex justify-content-center">
         <select id="lang" onchange="countryHandler(this.value)" class="form-select" style="width: 50%;">
-            <option value="./index-fr">Français</option>
+            <option value="./fr/index-fr">Français</option>
           <option value="../index"> English</option>
           
         </select>
@@ -82,10 +84,10 @@
     <!-- Main container start -->
     <main class="container-fluid">
         <!-- Content 1 start -->
-        <div class="row index align-items-center" style="background-image: url(images/pixabay.com_image1.jpg);">
-            <div class="col-6 text-center">
+        <div class="row index text-center" style="background-image: url(images/pixabay.com_image1.jpg);">
+            <div class="col-6 content-1">
                 <p class="h1">Basketball sur la lune</p>
-                <a href="./activity-packages.html"><button type="button" class="btn btn-light btn-lg">Plus d'activités</button></a>
+                <a href="./activity-packages.html"><button type="button" class="btn btn-outline-light btn-lg">Plus d'activités</button></a>
             </div>
             <div class="col-6">
                 <p>&nbsp;</p>
@@ -94,22 +96,22 @@
         <!-- Content 1 end -->
 
         <!-- Content 2 start -->
-        <div class="row index align-items-center" style="background-image: url(images/behance.net_honeymoon.png);">
+        <div class="row index" style="background-image: url(images/behance.net_honeymoon.png);">
             <div class="col-6">
                 <p>&nbsp;</p>
             </div>
-            <div class="col-6 text-center">
+            <div class="col-6 text-center content-2">
                 <p class="h1">Profitez d'une lune de miel sur la lune</p>
-                <a href="./form.html"><button type="button" class="btn btn-light btn-lg">Reserver votre forfait maintenant</button></a>
+                <a href="./form.html"><button type="button" class="btn btn-outline-light btn-lg">Reserver votre forfait maintenant</button></a>
         </div>
         </div>
         <!-- Content 2 end -->
 
         <!-- Content 3 start -->
-        <div class="row index align-items-center" style="background-image: url(images/EarthAstronauts.jpg);">
-            <div class="col-6 text-center">
+        <div class="row index" style="background-image: url(images/EarthAstronauts.jpg);">
+            <div class="col-6 text-center content-3">
                 <p class="h1">Voulez vous en savoir plus?</p>
-                <a href="./aboutUs.html#about-us"> <button type="button" class="btn btn-light btn-lg">Qui sommes-nous?</button></a>
+                <a href="./aboutUs.html#about-us"> <button type="button" class="btn btn-outline-light btn-lg">Qui sommes-nous?</button></a>
             </div>
             <div class="col-6">
                 <p>&nbsp;</p>
@@ -118,15 +120,15 @@
         <!-- Content 3 end -->
 
         <!-- Content 4 start -->
-        <div class="row index align-items-center" style="background-image: url(images/chillinAstronaut.jpg);">
+        <div class="row index" style="background-image: url(images/chillinAstronaut.jpg);">
             <div class="col-6">
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
             </div>
-            <div class="col-6 text-center">
+            <div class="col-6 text-center content-4">
                 <p class="h1">Foire aux questions</p>
                 <p class="h4">Pour tout ce que vous voulez savoir, même si vous êtes trop gené pour le demander</p>
-                <a href="./FAQ.html"><button  type="button" class="btn btn-light btn-lg">FAQ</button></a>
+                <a href="./FAQ.html"><button  type="button" class="btn btn-outline-light btn-lg">FAQ</button></a>
             </div>
         </div>
         <!-- Content 4 end -->
@@ -137,7 +139,7 @@
 
 
 
-   <!-- Footer -->
+    <!-- Footer -->
   <footer class="bg-dark text-center text-white" style="border-top:5px solid rgb(198, 179, 179);">
     <!-- Grid container -->
     <div class="container p-4">
@@ -345,8 +347,7 @@
         window.location.assign(`${value}.html`);
     }
   </script>
-    <!-- footer end -->
-
+  
 </body>
 <!-- body end -->
 </html>

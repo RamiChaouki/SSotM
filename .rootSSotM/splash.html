@@ -22,8 +22,7 @@
 </head>
 
 <body>
-  <!-- The video -->
-  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Ilifg26TZrI?clip=UgkxV91uW4Tn4lXSeef4Pn4_yZRz6dZSNonM&amp;clipt=EP3yBBjLnwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay id="myVideo"></iframe> -->
+    <!-- The video -->
   <video autoplay muted loop id="myVideo">
     <source src="videos/splash-low.mp4" type="video/mp4">
   </video>
@@ -37,8 +36,15 @@
     </button>
   </div>
 
-  </div>
 
+  <!-- French/English button -->
+  <button type="button" class="btn btn-outline-light btn-lg" id="lang">
+    <a href="fr/splash-fr.html">FR</a>
+  </button>
+</div>
+
+  
+  <!-- Time to luch calculation -->
   <script>
     // Set the date we're counting down to
     var countDownDate = new Date("Jan 5, 2023 13:00:00").getTime();
@@ -69,6 +75,8 @@
       }
     }, 1000);
   </script>
+
+</script>
 </body>
 
 </html>
