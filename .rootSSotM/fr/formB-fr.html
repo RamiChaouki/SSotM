@@ -23,39 +23,40 @@
     <div class="row navbar py-0">
 
       <div class="col-md-3 d-md-none " style="text-align:center">
-        <a href="./index.html" class="d-md-none">
+        <a href="./index-fr.html" class="d-md-none">
           <img src="./images/mockLogo2.png" style="height:120px; width: auto;"
-            alt="Sunny side of the Moon: Logo of a Shining Moon" title="Sunny Side of the Moon" />
+            alt="Sunny side of the Moon: Un logo comportant une lune qui brille" title="La face ensoleilée de la lune" />
         </a>
       </div>
 
       <div class="col-md-2  nav-link " style="text-align:center">
-        <a class="cus-nav-style" href="./activity-packages.html#packages">packages</a>
+        <a class="cus-nav-style" href="./activity-packages-fr.html#packages">forfaits</a>
       </div>
 
       <div class="col-md-2 nav-link" style="text-align:center">
-        <a href="./activity-packages.html#activities" class="cus-nav-style">activities</a>
+        <a href="./activity-packages-fr.html#activities" class="cus-nav-style">activités</a>
       </div>
 
       <div class="col-md-4 d-none d-md-block" style="text-align:center">
-        <a href="./index.html">
+        <a href="./index-fr.html">
           <img src="./images/mockLogo2.png" style="height:120px; width: auto;"
-            alt="Sunny side of the Moon: Logo of a Shining Moon" title="Sunny Side of the Moon" />
+            alt="Sunny side of the Moon: Un logo comportant une lune qui brille" title="La face ensoleilée de la lune" />
         </a>
       </div>
 
       <div class="col-md-1 nav-link" style="text-align:center">
-        <a href="./FAQ.html#about-us" class="cus-nav-style">about-us</a>
+        <a href="./FAQ-fr.html#about-us" class="cus-nav-style">qui sommes-nous</a>
       </div>
 
       <div class="col-md-1 nav-link" style="text-align:center">
-        <a href="./FAQ.html#faqs" class="cus-nav-style">faqs</a>
+        <a href="./FAQ-fr.html#faqs" class="cus-nav-style">faqs</a>
       </div>
 
       <div class="col-md py-4 d-flex justify-content-center">
         <select id="lang" onchange="countryHandler(this.value)" class="form-select" style="width: 50%;">
-          <option value="./pagename"> English</option>
-          <option value="./fr/pagename-fr">Français</option>
+            <option value="./fr/pagename-fr">Français</option>
+          <option value="../pagename"> English</option>
+          
         </select>
       </div>
 
@@ -64,87 +65,87 @@
   <!--NAVBAR END-->
 
   <div class="opacity-75" style=color:white>
-    <h1 class="text-center">Sunny Side of the Moon Reservation Form</h1>
+    <h1 class="text-center">Formulaire de réservation Sunny Side of the Moon </h1>
     <section id="contact">
         <div class="container-lg">
             <div class="row justify-content-center my-5">
-                <h2 class="text-center">Guest Personal Information</h2>
+                <h2 class="text-center">Invité - Information personnelle</h2>
                 <div class="col-lg-6">
                     <form>
-                        <label for="fname" class="form-label">First Name</label>
+                        <label for="fname" class="form-label">Prénom</label>
                         <input type="text" class="form-control" id="fname" placeholder="e.g. Neil" size="20"
                             maxlength="20" required>
-                        <label for="lname" class="form-label">Last Name</label>
+                        <label for="lname" class="form-label">Nom</label>
                         <input type="text" class="form-control" id="lname" placeholder="e.g. Armstrong" size="20"
                             maxlength="20" required>
-                        <label for="address" class="form-label">Address</label>
+                        <label for="address" class="form-label">Adresse</label>
                         <input type="text" class="form-control" id="address" placeholder="e.g. 742 Evergreen Terrace" size="50"
                         maxlength="50" required>
-                        <label for="city" class="form-label">City</label>
+                        <label for="city" class="form-label">Ville</label>
                         <input type="text" class="form-control" id="city" placeholder="e.g. Saint-Louis-du-Ha! Ha!" size="20"
                         maxlength="20" required>
-                        <label for="province" class="form-label">Province / Territory</label>
+                        <label for="province" class="form-label">Province / Territoire </label>
                         <select class="form-select" id="province">
                             <option value="alberta">Alberta</option>
-                            <option value="british_columbia">British Columbia</option>
+                            <option value="british_columbia">Colombie Britannique</option>
+                            <option value="prince_edward_island">Ile du Prince Edward</option>
                             <option value="manitoba">Manitoba</option>
-                            <option value="new_brunswick">New Brunswick</option>
-                            <option value="newfoundland_and_labrador">Newfoundland and Labrador</option>
-                            <option value="northwest_territories">Northwest Territories</option>
-                            <option value="nova_scotia">Nova Scotia</option>
+                            <option value="new_brunswick">Nouveau-Brunswick</option>
+                            <option value="nova_scotia">Nouvelle-Écosse</option>
                             <option value="nunavut">Nunavut</option>
                             <option value="ontario">Ontario</option>
-                            <option value="prince_edward_island">Prince Edward Island</option>
-                            <option value="quebec">Quebec</option>
+                            <option value="quebec">Québec</option>
                             <option value="saskatchewan">Saskatchewan</option>
+                            <option value="newfoundland_and_labrador">Terre-Neuve et Labrador</option>
+                            <option value="northwest_territories">Territoires du Nord-Ouest</option>
                             <option value="yukon">Yukon</option>
                         </select>
-                        <label for="postal_code" class="form-label">Postal Code</label>
+                        <label for="postal_code" class="form-label">Code postale</label>
                         <input type="text" class="form-control" id="postal_code" placeholder="e.g. H0H 0H0" size="7"
                         maxlength="7" required>
-                        <label for="email" class="form-label">Email Address</label>
+                        <label for="email" class="form-label">Courriel</label>
                         <input type="email" class="form-control" id="email" placeholder="e.g. neil.armstrong@NASA.gov"
                             size="40" maxlength="40" required>
-                        <label for="phone" class="form-label">Phone Number</label>
+                        <label for="phone" class="form-label">Numéro de téléphone</label>
                         <input type="text" class="form-control" id="phone" placeholder="e.g. (555) 867-5309" size="16"
                         maxlength="16" required>
                         <br />
-                        <h2 class="text-center">Hotel Reservation Information</h2>
-                        <h6>Packages</h6>
+                        <h2 class="text-center">Formulaire de reservation de l’hôtel</h2>
+                        <h6>Forfaits</h6>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="sunny-package" checked>
                             <label class="form-check-label" for="sunny-package">
-                              Sunny Package
+                                Forfait sunny
                             </label>
                           </div>
                           <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="sunny-plus-package">
                             <label class="form-check-label" for="sunny-plus-package">
-                                Sunny Plus Package
+                                Forfait sunny plus
                             </label>
                           </div>
                           <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="sunny-extreme-package">
                             <label class="form-check-label" for="sunny-extreme-package">
-                                Sunny Extreme Package
+                                Forfait sunny extrême
                             </label>
                           </div>
                           <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="sunny-honeymoon-package">
                             <label class="form-check-label" for="sunny-honeymoon-package">
-                                Sunny HoneyMoon Package
+                                Forfait sunny lune de miel
                             </label>
                           </div>
                           <br />
-                          <label for="length-of-stay" class="form-label">Length of Stay (excluding travel time)</label>
+                          <label for="length-of-stay" class="form-label">Durée de la visite (excluant le temp de voyage)</label>
                           <select class="form-select" id="length-of-stay">
-                            <option value="4-days">4 Days</option>
-                            <option value="8-days">8 Days</option>
-                            <option value="15-days">15 Days</option>
-                            <option value="22-days">22 Days</option>
+                            <option value="4-days">4 jours</option>
+                            <option value="8-days">8 jours</option>
+                            <option value="15-days">15 jours</option>
+                            <option value="22-days">22 jours</option>
                         </select>
                         <br />
-                        <label for="number-of-people" class="form-label">Number of People</label>
+                        <label for="number-of-people" class="form-label">Nombre de personnes</label>
                         <select class="form-select" id="number-of-people">
                             <option value="1">1</option>
                             <option selected value="2">2</option>
@@ -154,7 +155,7 @@
                             <option value="6">6</option>
                         </select>
                         <br />
-                        <label for="number-of-adults" class="form-label">Number of Adults</label>
+                        <label for="number-of-adults" class="form-label">Nombre d’adultes</label>
                         <select class="form-select" id="number-of-adults">
                             <option value="1">1</option>
                             <option selected value="2">2</option>
@@ -163,7 +164,7 @@
                             <option value="5">5</option>
                             <option value="6">6</option>
                         </select>
-                        <label for="number-of-children" class="form-label">Number of children</label>
+                        <label for="number-of-children" class="form-label">Nombre d’enfants</label>
                         <select class="form-select" id="number-of-children">
                             <option selected value="0">0</option>
                             <option value="1">1</option>
@@ -172,7 +173,7 @@
                             <option value="4">4</option>
                         </select>
                         <br />
-                        <h6>Payment Method</h6>
+                        <h6>Méthode de paiement</h6>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="visa" checked>
                             <label class="form-check-label" for="visa">
@@ -209,29 +210,29 @@
                                 Dogecoin
                             </label>
                           </div>
-                          <label for="card-wallet" class="form-label">Credit Card or Coin Wallet Number </label>
-                        <input type="text" class="form-control" id="card-wallet" placeholder="Card or Wallet Number" size="35"
+                          <label for="card-wallet" class="form-label">Numéro de carte ou numéro de portefeuille crypto-monnaie</label>
+                        <input type="text" class="form-control" id="card-wallet" placeholder="carte ou numéro de portefeuille" size="35"
                         maxlength="35" required>
                         <label for="cvs" class="form-label">CVS</label>
-                        <input type="text" class="form-control" id="phone" placeholder="Les trois derniers chiffres derriere la carte" size="4"
+                        <input type="text" class="form-control" id="phone" placeholder="Les 3-4 numeros en arriere " size="4"
                         maxlength="4">
                         <br />
                         <h6> Dietary Restrictions</h6>
                         <div class="form-check form-switch">
                             <input class="form-check-input" type="checkbox" role="switch" id="vegetarian">
-                            <label class="form-check-label" for="vegetarian">Vegetarian</label>
+                            <label class="form-check-label" for="vegetarian">Végétarien</label>
                         </div>
                         <div class="form-check form-switch">
                             <input class="form-check-input" type="checkbox" role="switch" id="pescatarian">
-                            <label class="form-check-label" for="pescatarian">Pescatarian</label>
+                            <label class="form-check-label" for="pescatarian">Pesco-végétarien</label>
                         </div>
                         <div class="form-check form-switch">
                             <input class="form-check-input" type="checkbox" role="switch" id="vegan">
-                            <label class="form-check-label" for="vegan">Vegan</label>
+                            <label class="form-check-label" for="vegan">Végétaliens</label>
                         </div>
                         <div class="form-check form-switch">
                             <input class="form-check-input" type="checkbox" role="switch" id="gluten-free">
-                            <label class="form-check-label" for="gluten-free">Gluten-Free</label>
+                            <label class="form-check-label" for="gluten-free">Sans-gluten</label>
                         </div>
                         <div class="form-check form-switch">
                             <input class="form-check-input" type="checkbox" role="switch" id="halal">
@@ -239,28 +240,28 @@
                         </div>
                         <div class="form-check form-switch">
                             <input class="form-check-input" type="checkbox" role="switch" id="kosher">
-                            <label class="form-check-label" for="kosher">Kosher</label>
+                            <label class="form-check-label" for="kosher">Kasher</label>
                         </div>
                         <div class="form-check form-switch">
                             <input class="form-check-input" type="checkbox" role="switch" id="allergies">
                             <label class="form-check-label" for="allergies">Allergies</label>
-                            <input type="text" class="form-control-inline" id="allergiestxt" placeholder="Allergen">
+                            <input type="text" class="form-control-inline" id="allergiestxt" placeholder="Allergène">
                         </div>
                         <div class="form-check form-switch">
                             <input class="form-check-input" type="checkbox" role="switch" id="other">
-                            <label class="form-check-label" for="other">Other</label>
+                            <label class="form-check-label" for="other">Autre</label>
                             <span>&emsp;</span>
-                            <input type="text" class="form-control-inline" id="othertxt" placeholder="Other dietary restrictions">
+                            <input type="text" class="form-control-inline" id="othertxt" placeholder="Autres restrictions alimentaires">
                         </div>
                         <br />
                         <div class="form-check">
                           <input class="form-check-input" type="checkbox" value="" id="termsAndConditions" required>
                           <label class="form-check-label" for="termsAndConditions">
-                            By submitting this form you agree with our <a href="terms-and-conditions.html">Terms and Conditions</a>
+                            En soummissant ce document, vous acceptez les <a href="terms-and-conditions.html">termes et conditions</a>
                           </label>
                         </div>
                         <br />
-                        <a class="btn btn-primary" href="./successful-process.html" role="button">Submit form</a>  
+                        <a class="btn btn-primary" href="./successful-process.html" role="button">Soumettre</a>  
                     </form>
                 </div>
             </div>
@@ -273,7 +274,7 @@
     <!-- Grid container -->
     <div class="container p-4">
       <!-- Section: Social media -->
-      <nav id="footer-nav" class="mb-4">
+      <nav class="mb-4">
         <!-- Facebook -->
         <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/Sunny-Side-of-the-Moon-103395659035464" role="button"><i class="fab fa-facebook-f"></i></a>
 
@@ -295,14 +296,14 @@
       <!-- Section: Social media -->
 
       <!-- Section: Form -->
-      <nav id="newsletter">
+      <aside id="newsletter">
         <form>
           <!--Grid row-->
           <div class="row d-flex justify-content-center">
             <!--Grid column-->
             <div class="col-auto">
               <p class="pt-2">
-                <strong>Sign up for our newsletter</strong>
+                <strong>Inscrivez-vous à notre infolettre</strong>
               </p>
             </div>
             <!--Grid column-->
@@ -312,7 +313,7 @@
               <!-- Email input -->
               <div class="form-outline form-white mb-4">
                 <input type="email" id="form5Example21" class="form-control" />
-                <label class="form-label" for="form5Example21">Email address</label>
+                <label class="form-label" for="form5Example21">Adresse courriel</label>
               </div>
             </div>
             <!--Grid column-->
@@ -321,23 +322,22 @@
             <div class="col-auto">
               <!-- Submit button -->
               <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
+                S’inscrire
               </button>
             </div>
             <!--Grid column-->
           </div>
           <!--Grid row-->
         </form>
-      </nav>
+      </aside>
       <!-- Section: Form -->
 
       <!-- Section: Text -->
       <aside class="mb-4">
         <p>
-          Sunny Side of the Moon&trade; (SSotM)&trade;; is a travel agency working in tandem with
-          SpaceY&trade;, Blue Oranges&trade;, and abiding by the decrees of the United Nations Office of Outer
-          Space Affairs. By booking a package with us, you are agreeing to abide to the <a class="text-white"
-           href="">corporate policies</a> of our partners as well as the <a class="text-white" href="">UNOOSA resolutions</a> pertaining to space travel and moon visits.
+          Sunny Side of the Moon&trade; (SSotM)&trade;; est une agence de voyage travaillant en tandem avec
+          SpaceY&trade;, Blue Oranges&trade;, et respectant les décrets du Bureau des affaires spatiales de l’ONU (UNOV). En réservant un forfait avec nous, vous acceptez de respecter les  <a class="text-white"
+           href="">politiques d'entreprise </a> de nos partenaires ainsi que les <a class="text-white" href="">résolutions de l'UNOV</a> associés aux voyages dans l'espace et aux visites lunaires.
         </p>
       </aside>
       <!-- Section: Text -->
@@ -348,7 +348,7 @@
         <div class="row">
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Social Media</h5>
+            <h5 class="text-uppercase">Résaux Sociaux</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
@@ -373,43 +373,22 @@
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="./splash.html" class="text-white">Home</a>
+                <a href="./splash-fr.html" class="text-white">Page d’accueil</a>
               </li>
               <li>
-                <a href="./activity-packages.html#activities" class="text-white">Activities</a>
+                <a href="./activity-package-fr.html#activities" class="text-white">Activités</a>
               </li>
               <li>
-                <a href="./activity-packages.html#packages" class="text-white">Packages</a>
+                <a href="./activity-packages-fr.html#packages" class="text-white">Forfaits</a>
               </li>
               <li>
-                <a href="./FAQ.html#about-us" class="text-white">About-Us</a>
+                <a href="./FAQ-fr.html#about-us" class="text-white">Qui sommes-nous?</a>
               </li>
               <li>
-                <a href="./FAQ.html#faq" class="text-white">FAQs</a>
+                <a href="./FAQ-fr.html#faqs" class="text-white">FAQs</a>
               </li>
               <li>
-                <a href="./FAQ.html#contact-us" class="text-white">Contact-Us</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Learn More</h5>
-
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Careers</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Environmental Policies</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Health Requirements</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Terms &amp; Conditions</a>
+                <a href="./FAQ-fr.html#contact-us" class="text-white">Nous-rejoindre</a>
               </li>
             </ul>
           </div>
@@ -417,12 +396,32 @@
 
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Useful Links</h5>
+            <h5 class="text-uppercase">En Apprendre Plus</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="https://www.unoosa.org" class="text-white">United Nations Office of Outer Space Affairs
-                  (UNOOSA)</a>
+                <a href="#!" class="text-white">Carières</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Politiques environnementales</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Exigences concernant la santé</a>
+              </li>
+              <li>
+                <a href="./terms-and-conditions-fr.html" class="text-white">Termes et conditions</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Liens Utiles</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://www.unoosa.org" class="text-white">Le bureau des affaires spatiales de l’ONU (UNOV)</a>
               </li>
               <li>
                 <a href="https://www.spacex.com" class="text-white">SpaceY</a>
@@ -455,8 +454,7 @@
                 'google_translate_element');
         }
     // ]]></script>
-    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-        ></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <!-- Google Translate end-->
 
 
@@ -465,8 +463,8 @@
 
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 Copyright:
-      <a class="text-white" href="https://www.SSotM.com">SSotM.com</a>
+        © 2022 droit d’auteur:
+      <a class="text-white" href="./index-fr.html">SSotM.com</a>
     </div>
     <!-- Copyright -->
   </footer>
