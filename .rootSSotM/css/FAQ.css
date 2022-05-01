@@ -1,6 +1,12 @@
+@import url(./_variables.scss);
 #accordionFlushExample {
   background-color: transparent;
   color: black;
+}
+
+#faq {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 body {
@@ -16,24 +22,6 @@ body {
   width: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-}
-
-#moon3D {
-  margin: 0 auto;
-}
-
-#about-us, #contact-us{
-  margin: 100px;
-}
-
-#faq {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-#contact-us {
-  background-image:url(./images/star-bg.jpg);
-   color:black;
 }
 
 .cus-bg {
