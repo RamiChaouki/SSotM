@@ -1,3 +1,17 @@
+6pm Meeting:
+todo:
+Rearrange Footer so that it sticks at the bottom: 
+-Successful-prossess.html & Successful-prossess-fr.html
+-terms-and-conditions.html & terms-and-conditions-fr.html
+
+French version for:
+-formB.html
+-Successful-prossess.html
+-faq.html
+
+Validate any CSS code or HTML code you have worked on
+
+
 Edgar:
 -REquired fields for FORMS and CONTACT-US
 
@@ -9,4 +23,6 @@ Work together
 
 RAMI:
 PRESENTATION + Polishing template
+
+
 
