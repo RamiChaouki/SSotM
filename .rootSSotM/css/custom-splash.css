@@ -20,7 +20,7 @@ body {
 #splash-button {
     position: fixed;
     top: 70%;
-    left: 40%;
+    width: 100vw;
     text-align: center;
     color: gainsboro;
     animation: fadeIn 10s;
@@ -37,6 +37,7 @@ body {
     font-size: xx-large;
     font-weight: bold;
 }
+
 
 @keyframes fadeIn {
     0% {opacity: 0;}
