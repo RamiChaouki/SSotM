@@ -38,9 +38,14 @@ body {
   background-size: cover;
 }
 
-a, li, li > i, li > a, h2 {
-  text-decoration: none;
-  list-style: none;
-  color: #fff;
-  text-shadow: 0 0 3px black, 0 0 5px whitesmoke;
+.cus-bg {
+  background-image: -webkit-gradient(linear, left top, right top, from(black), color-stop(#121a27), to(black)) !important;
+  background-image: linear-gradient(to right, black, #121a27, black) !important;
+  border-bottom: 5px solid #c6b3b3;
+  text-shadow: 0 0 2px black, 0 0 2px whitesmoke;
+}
+
+.cus-nav-style:hover {
+  color: rgba(225, 234, 245, 0.95);
+  text-shadow: 0 0 3px black, 0 2px 15px white !important;
 }
