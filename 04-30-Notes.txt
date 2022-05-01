@@ -13,3 +13,25 @@ Rami
 
 Dmitry+Edgar:
 -Update matt + Ali html with nav/foot
+
+UPDATED NOTES
+EVERYONE:
+-SEND ME WHAT YOU NEED TRANSLATED
+-MAKE A (pagename)-fr.html copy of your page inside the FR folder
+-MAKE SURE LANG=FR
+
+ALI:
+-ABOUT US ON THE FAQ.HTML
+-FIX THE JITTERY TEXT ON SPLASH.HTML
+-ADD NAV WHEN IT"S DONE
+
+RAMI:
+-MAKE SURE NAV IS OK
+-ADD ENG-FR CHOICE
+-TRANSLATE THE TEXTS
+
+MITCH:
+-GIVE US SPACE
+
+EDGAR:
+-CONTACT-US (Name, email, reason(dropdown-investment-question-marriage-technical), text-area, submit)
