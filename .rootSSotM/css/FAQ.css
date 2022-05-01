@@ -3,19 +3,6 @@
   color: black;
 }
 
-#moon3D {
-  margin: 0 auto;
-}
-
-#about-us{
-  margin: 100px;
-}
-
-#faq {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 body {
   background-color: #000;
   background-image: url(../images/star-bg.jpg);
@@ -29,6 +16,24 @@ body {
   width: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+}
+
+#moon3D {
+  margin: 0 auto;
+}
+
+#about-us, #contact-us{
+  margin: 100px;
+}
+
+#faq {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#contact-us {
+  background-image:url(./images/star-bg.jpg);
+   color:black;
 }
 
 .cus-bg {
