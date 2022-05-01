@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -61,6 +62,7 @@
     </div>
   </nav>
   <!--NAVBAR END-->
+
   <div class="opacity-75" style=color:white>
     <h1 class="text-center">Sunny Side of the Moon Reservation Form</h1>
     <section id="contact">
@@ -81,8 +83,8 @@
                         <label for="city" class="form-label">City</label>
                         <input type="text" class="form-control" id="city" placeholder="e.g. Saint-Louis-du-Ha! Ha!" size="20"
                         maxlength="20" required>
-                        <label for="Province" class="form-label">Province / Territory</label>
-                        <select class="form-select">
+                        <label for="province" class="form-label">Province / Territory</label>
+                        <select class="form-select" id="province">
                             <option value="alberta">Alberta</option>
                             <option value="british_columbia">British Columbia</option>
                             <option value="manitoba">Manitoba</option>
@@ -135,7 +137,7 @@
                           </div>
                           <br />
                           <label for="length-of-stay" class="form-label">Length of Stay (excluding travel time)</label>
-                        <select class="form-select">
+                          <select class="form-select" id="length-of-stay">
                             <option value="4-days">4 Days</option>
                             <option value="8-days">8 Days</option>
                             <option value="15-days">15 Days</option>
@@ -143,7 +145,7 @@
                         </select>
                         <br />
                         <label for="number-of-people" class="form-label">Number of People</label>
-                        <select class="form-select">
+                        <select class="form-select" id="number-of-people">
                             <option value="1">1</option>
                             <option selected value="2">2</option>
                             <option value="3">3</option>
@@ -153,7 +155,7 @@
                         </select>
                         <br />
                         <label for="number-of-adults" class="form-label">Number of Adults</label>
-                        <select class="form-select">
+                        <select class="form-select" id="number-of-adults">
                             <option value="1">1</option>
                             <option selected value="2">2</option>
                             <option value="3">3</option>
@@ -162,7 +164,7 @@
                             <option value="6">6</option>
                         </select>
                         <label for="number-of-children" class="form-label">Number of children</label>
-                        <select class="form-select">
+                        <select class="form-select" id="number-of-children">
                             <option selected value="0">0</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -213,39 +215,39 @@
                         <br />
                         <h6> Dietary Restrictions</h6>
                         <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" role="switch" id="dietary-restrictions">
+                            <input class="form-check-input" type="checkbox" role="switch" id="vegetarian">
                             <label class="form-check-label" for="vegetarian">Vegetarian</label>
                         </div>
                         <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" role="switch" id="dietary-restrictions">
+                            <input class="form-check-input" type="checkbox" role="switch" id="pescatarian">
                             <label class="form-check-label" for="pescatarian">Pescatarian</label>
                         </div>
                         <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" role="switch" id="dietary-restrictions">
+                            <input class="form-check-input" type="checkbox" role="switch" id="vegan">
                             <label class="form-check-label" for="vegan">Vegan</label>
                         </div>
                         <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" role="switch" id="dietary-restrictions">
+                            <input class="form-check-input" type="checkbox" role="switch" id="gluten-free">
                             <label class="form-check-label" for="gluten-free">Gluten-Free</label>
                         </div>
                         <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" role="switch" id="dietary-restrictions">
+                            <input class="form-check-input" type="checkbox" role="switch" id="halal">
                             <label class="form-check-label" for="halal">Halal</label>
                         </div>
                         <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" role="switch" id="dietary-restrictions">
+                            <input class="form-check-input" type="checkbox" role="switch" id="kosher">
                             <label class="form-check-label" for="kosher">Kosher</label>
                         </div>
                         <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" role="switch" id="dietary-restrictions">
+                            <input class="form-check-input" type="checkbox" role="switch" id="allergies">
                             <label class="form-check-label" for="allergies">Allergies</label>
-                            <input type="text" class="form-control-inline" id="phone" placeholder="Allergen">
+                            <input type="text" class="form-control-inline" id="allergiestxt" placeholder="Allergen">
                         </div>
                         <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" role="switch" id="dietary-restrictions">
+                            <input class="form-check-input" type="checkbox" role="switch" id="other">
                             <label class="form-check-label" for="other">Other</label>
                             <span>&emsp;</span>
-                            <input type="text" class="form-control-inline" id="phone" placeholder="Other dietary restrictions">
+                            <input type="text" class="form-control-inline" id="othertxt" placeholder="Other dietary restrictions">
                         </div>
                         <br />
                         <div class="form-check">
