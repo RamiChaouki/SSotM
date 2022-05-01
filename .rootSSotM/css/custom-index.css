@@ -39,6 +39,12 @@ body {
     top: 10%;
 }
 
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
 .text-truncate {
     padding: 0 15%;
 }
