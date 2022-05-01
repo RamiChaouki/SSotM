@@ -4,20 +4,20 @@
 
 #accordionFlushExample {
     background-color: transparent;
-    color: black    ;
+    color: black;
 }
 
-// #moon3D {
-//     margin: 10%;
-// }
+p {
+    color: white;
+}
 
-// #moonInteract {
-//     width: 90%; 
-//     height: 90%;
-//     margin: auto;
-//     border-radius: 400px;
-//     box-shadow: 0 0 30px black;
-// }
+#moonInteract {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 600px;
+    box-shadow: 0 0 30px black;
+}
 
 #faq {
     margin-top: 2rem;
@@ -39,6 +39,16 @@ body {
     -webkit-font-smoothing: antialiased;
 
  
+}
+
+// #vidcontainer {
+//     width: 100%;
+//     margin: 0;
+//     padding: 0;
+// }
+
+.modal.fade .modal-dialog{
+    transform:none !important;
 }
 
 .cus-bg{
