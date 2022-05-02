@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -42,8 +43,4 @@ body {
     text-decoration: none;
     color: white;
     font-size: x-large;
-}
-
-.text-truncate {
-    padding: 0 15%;
 }
