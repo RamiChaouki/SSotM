@@ -1,6 +1,23 @@
 #accordionFlushExample {
-  background-color: transparent;
   color: black;
+}
+
+p {
+  color: whitesmoke;
+}
+
+#moonInteract {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 600px;
+  -webkit-box-shadow: 0 0 30px black;
+          box-shadow: 0 0 30px black;
+}
+
+#faq {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 body {
@@ -9,7 +26,7 @@ body {
   background-size: 680px 455px;
   margin: 0;
   padding: 0;
-  font-family: 16px/26px D-DIN-Regular,Arial,Verdana,sans-serif;
+  font-family: D-DIN-Regular, Arial,Verdana,sans-serif;
   font-weight: 400;
   font-style: normal;
   color: black;
@@ -18,22 +35,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-#moon3D {
-  margin: 0 auto;
+.h2, h2 {
+  text-shadow: 0 0 14px whitesmoke;
 }
 
-#about-us, #contact-us{
-  margin: 100px;
-}
-
-#faq {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-#contact-us {
-  background-image:url(./images/star-bg.jpg);
-   color:black;
+.figure-img {
+  -webkit-box-shadow: 0 1rem 3rem rgba(140, 95, 168, 0.78);
+          box-shadow: 0 1rem 3rem rgba(140, 95, 168, 0.78);
+  height: 100%;
 }
 
 .cus-bg {
